@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.db.dao.UserDao">
+    <sql id="allsql" >
+        select * from emp
+    </sql>
+    <resultMap id="map" type="Emp">
+        <id column="id" property="userId"></id>
+        <result column="job_id" property="jobId"></result>
+        <result column="dept_id" property="deptId"></result>
+    </resultMap>
+    <select id="findAll" resultMap="map" >
+        select id ,ename from emp
+    </select>
+    <select id="findUser" resultType="MAp">
+        select id ,ename from emp
+    </select>
+    <select id="searchUser" parameterType="emp" resultMap="map" >
+        <include refid="allsql"></include>
+        where 1=1
+        <if test="userId!=null and userId!=''">
+            and id=#{userId}
+        </if>
+    </select>
+    <select id="searchUser1" resultMap="map" parameterType="Emp">
+        <include refid="allsql" ></include>
+    </select>
+</mapper>

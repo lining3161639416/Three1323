@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc_01" />
+        <module name="springMvc_02" />
+        <module name="m1" />
+        <module name="spring_3_01 (1)" />
+        <module name="servlet" />
+        <module name="spring_5_03" />
+        <module name="spring_3_01" />
+        <module name="spring_5_02" />
+        <module name="spring_5_01" />
+        <module name="spring_6_01" />
+        <module name="day01_01" />
+        <module name="mybatis_1_06" />
+        <module name="Three" />
+        <module name="mybatis_1_03" />
+        <module name="mybatis_1_02" />
+        <module name="mybatis_1_05" />
+        <module name="mybatis_1_04" />
+        <module name="servlet01_01" />
+        <module name="spring_1_01" />
+        <module name="spring_2_01" />
+        <module name="spring_1_02" />
+        <module name="spring_2_02" />
+        <module name="spring_5_04" />
+        <module name="spring_5_1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01_01" target="1.8" />
+      <module name="m1" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatis_1_02" target="1.8" />
+      <module name="mybatis_1_03" target="1.8" />
+      <module name="mybatis_1_04" target="1.8" />
+      <module name="mybatis_1_05" target="1.8" />
+      <module name="mybatis_1_06" target="1.8" />
+      <module name="servlet" target="1.8" />
+      <module name="servlet01_01" target="1.8" />
+      <module name="servlet_01_01" target="1.8" />
+      <module name="servlet_01_02" target="1.8" />
+      <module name="servlrt_01_01" target="1.8" />
+      <module name="spring_1_01" target="1.8" />
+      <module name="spring_1_02" target="1.8" />
+      <module name="spring_2_01" target="1.8" />
+      <module name="spring_2_02" target="1.8" />
+      <module name="spring_3_01" target="1.8" />
+      <module name="spring_3_01 (1)" target="1.8" />
+      <module name="spring_3_01 (2)" target="1.8" />
+      <module name="spring_4_02" target="1.8" />
+      <module name="spring_5_01" target="1.8" />
+      <module name="Spring_5_01" target="1.8" />
+      <module name="spring_5_02" target="1.8" />
+      <module name="spring_5_03" target="1.8" />
+      <module name="spring_5_04" target="1.8" />
+      <module name="spring_5_1" target="1.8" />
+      <module name="spring_6_01" target="1.8" />
+      <module name="springmvc_01" target="1.8" />
+      <module name="springMvc_02" target="1.8" />
+      <module name="springmvc_test" target="1.8" />
+      <module name="Three" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

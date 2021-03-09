@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../eclipse_126/worksapce/Three" />
+    <file type="web" url="file://$PROJECT_DIR$/m1" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet01_01" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet_01_01" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet_01_02" />
+    <file type="web" url="file://$PROJECT_DIR$/servlrt_01_01" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_1_01" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_1_02" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_01" />
+    <file type="web" url="file://$PROJECT_DIR$/springMvc_02" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_test" />
+    <file type="web" url="file://$PROJECT_DIR$/../../JAVE开发课程/126/JAVA/JAVA/SpringMVC/day02/day01_01" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/m1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_1_01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_1_02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_2_01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_2_02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_3_01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_4_01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_4_02/spring_4_02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_5_01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_5_1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_5_02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_6_01/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_1_02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_1_03/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_5_03/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_5_04/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_1_04/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_1_05/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_1_06/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet_01_01/pom.xml" />
+        <option value="$PROJECT_DIR$/../../eclipse_126/worksapce/Three/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet01_01/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JAVE开发课程/126/JAVA/JAVA/SpringMVC/day02/day01_01/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_01/pom.xml" />
+        <option value="$PROJECT_DIR$/springMvc_02/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

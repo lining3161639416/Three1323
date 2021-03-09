@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+           // let obj={"username":$("#username").val(),"password":$("#password").val()};
+            let obj={"username":"信息","password":"123456"};
+            $("#btn").on("click",function(){
+                // $.get("/dom7/show1?username=x信息&password=12345", function (data){
+                //     alert(data.message);
+                // });
+                // $.get("/dom7/show1",obj, function (data){
+                //     alert(data.message);
+                // });
+                // $.get("/dom7/show1",obj, function (data){
+                //     alert(data.message);
+                // });
+                $.post("/dom7/show1",obj, function (data){
+                    alert(data.message);
+                });
+            });
+        })
+    </script>
+</head>
+<body>
+<h1>1111</h1>
+<form   id="form">
+   用户名： <input type="text" name="username" id="username"><br>
+    密码<input type="text" name="password" id="password"><br>
+    <input type="submit" id="btn">
+</form>
+</body>
+</html>

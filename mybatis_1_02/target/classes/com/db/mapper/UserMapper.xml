@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.db.mapper.UserMapper">
+    <select id="findAll" resultType="User">
+        select * from user
+    </select>
+    <select id="findUser" parameterType="String"  resultType="User" >
+        select * from user where username=#{username}
+    </select>
+
+    <insert id="saveUser" parameterType="User" useGeneratedKeys="true" >
+        insert into user(username, password) values (#{username}, #{password})
+<!--        <selectKey keyColumn="id" keyProperty="id" resultType="int">-->
+<!--            SELECT LAST_INSERT_ID();-->
+<!--        </selectKey>-->
+    </insert>
+    <update id="updateUser">
+        update user set username=#{username} where id=#{userId}
+    </update>
+    <update id="updateUserMap" parameterType="Map">
+        update user set username=#{un} where id=#{ui}
+    </update>
+    <select id="searchUser" parameterType="String" resultType="User">
+        select * from user where username like concat("%",#{username},"%");
+    </select>
+    <delete id="deleteUser" parameterType="Integer">
+        delete from user where id=#{id}
+    </delete>
+</mapper>

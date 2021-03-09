@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="service" class="com.db.service.imp.ServiceImp" scope="singleton" init-method="init" destroy-method="destory"></bean>-->
+<!--    <bean id="service" class="com.db.service.imp.ServiceImp">-->
+<!--        <constructor-arg name="username" value="小甜甜"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="service" factory-bean="beansfactory" factory-method="getservice"></bean>-->
+<!--    <bean id="beansfactory" class="com.db.Utils.BeansFactory"></bean>-->
+   <!-- <bean id="service" class="com.db.service.imp.ServiceImp">
+        <constructor-arg name="daoImp" ref="dao"></constructor-arg>
+    </bean>
+    <bean id="dao" class="com.db.Utils.BeansFactory" factory-method="getDaoImp"></bean>-->
+    <bean id="service" class="com.db.service.imp.ServiceImp">
+        <constructor-arg name="daoImp" ref="dao"></constructor-arg>
+    </bean>
+    <bean id="dao" class="com.db.dao.imp.DaoImp"></bean>
+</beans>
